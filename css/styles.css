@@ -67,23 +67,11 @@ ul.indexPosition {
 
 li.index {
     text-align: center;
-    border: 3px solid rgba (100,100,100,1);
-    margin: 20px;
-    padding: 30px;
-    width: 300px;
-    font-size: 2rem;
+    border: solid white;
+    background-color: rgba(163, 163, 163, 0.644);
+    padding: 20px;
     border-radius: 50px;
-    color: #FFF;
-    background-size: 300%;
-}
-
-li.index:hover {
-    background-position: right;
-    transition: 0.6s;
-}
-
-.degrade {
-    background-image: linear-gradient(to left, rgba(209, 209, 209, 0.767), #e9c666f5);
+    font-size: 3rem;
 }
 
 /* Footer */
