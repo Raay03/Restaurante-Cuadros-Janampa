@@ -65,14 +65,25 @@ ul.indexPosition {
     justify-items: center;
 }
 
-
 li.index {
-    font-size: 3rem;
-    border-style: solid;
-    padding: 10px;
-    background-color: #ffffff93;
+    text-align: center;
+    border: 3px solid rgba (100,100,100,1);
+    margin: 20px;
+    padding: 30px;
+    width: 300px;
+    font-size: 2rem;
     border-radius: 50px;
-    border: 1px;
+    color: #FFF;
+    background-size: 300%;
+}
+
+li.index:hover {
+    background-position: right;
+    transition: 0.6s;
+}
+
+.degrade {
+    background-image: linear-gradient(to left, rgba(209, 209, 209, 0.767), #e9c666f5);
 }
 
 /* Footer */
