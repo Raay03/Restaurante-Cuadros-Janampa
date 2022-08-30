@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+    <link rel="icon" href="../assets/img/icon.png">
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <ul class="links">
+            <li class="head">
+                <a href="../index.html" target="_self">Inicio</a>
+            </li>
+            <li class="head">
+                <a href="./menu.html" target="_self">Menú</a>
+            </li>
+            <li class="head">
+                <a href="./sobre-nosotros.html" target="_self">Sobre nosotros</a>
+            </li>
+            <li class="head">
+                <a href="./ubicacion.html" target="_self">Ubicación</a>
+            </li>
+            <li class="head">
+                <a href="./reservas.html" target="_self">Reservas</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <h1 class="titulos">Reservas</h1>
+        <p id="reservas">Para hacer tu reserva completa este formulario y nos estaremos contactando con usted lo mas pronto posible.
+        </p>
+
+        <div class="formulario">
+            <p class="datosPersonales">Datos Personales</p>
+
+            <form action="" class="dentroFormulario">
+                <div class="labels">
+                    <label for="nombre">Nombre y apellido</label>
+                    <input type="text" name="nombre" placeholder="Nombre" id="nombre">
+                </div>
+
+                <div class="labels">
+                    <label for="numero">Número de telefono</label>
+                    <input type="text" name="numero" placeholder="Número" id="numero">
+                </div>
+
+                <div class="labels">
+                    <label for="email">Mail</label>
+                    <input type="email" name="email" placeholder="Mail" id="email">
+                </div>
+
+                <div class="labels">
+                    <label for="personas">Cantidad de personas</label>
+                    <select name="personas" id="consola">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                    </select>
+
+                </div>
+                <input type="submit" value="Enviar Reserva" class="enviarReserva">
+            </form>
+        </div>
+    </main>
+    <footer class="footerIndex">
+        <p> Hecho por Ray Cuadros</p>
+    </footer>
+</body>
+
+</html>
