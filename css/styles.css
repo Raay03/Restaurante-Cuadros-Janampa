@@ -4,22 +4,11 @@
     box-sizing: border-box;
     font-family: 'Roboto Slab', serif;
     list-style: none;
-}
-
-a{
     text-decoration: none;
-    color: white;
 }
 
-body {
+body.fondo {
     background-color: rgb(255, 216, 168);
-}
-
-#contenedor {
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 10fr 10fr auto;
 }
 
 body.index {
@@ -59,36 +48,6 @@ h1.italiano {
     position: fixed;
     bottom: 0%;
     right: 0%;
-}
-
-/* Header */
-
-header.header {
-    height: auto;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    background-color: gray;
-}
-
-ul.links {
-    display: flex;
-    flex-direction: row;
-
-}
-
-li.head {
-    text-align: center;
-    justify-content: center;
-    padding: 10px;
-    margin: 10px 45px 10px 45px;
-    font-size: 2rem;
-    border-style: solid;
-    border-radius: 20px;
-    background-color: black;
-    font-weight: bold;
 }
 
 /* Menú */
@@ -132,32 +91,10 @@ ul.tres li {
     font-size: 1.5rem;
 }
 
-
-
-            /*--Resto de paginas--*/
-
-
-
 /* Sobre Nosotros */
 
-h1.titulos {
-    font-size: 5rem;
-    position: relative;
-    margin-bottom: 2vh;
-    text-decoration: underline;
-}
-
-div.parrafos {
-    margin-bottom: 5vh;
-    text-align: center;
-    border-style: double;
-    border-radius: 50px;
-    padding-bottom: 1vh;
-}
-
-div h2.subtitle {
-    font-size: 2.5rem;
-    margin-bottom: 3vh;
+.contenedorAbout {
+    width: 100vh;
 }
 
 img.logos {
