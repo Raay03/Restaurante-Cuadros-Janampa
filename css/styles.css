@@ -41,6 +41,20 @@ h1.italiano {
     text-align: center;
 }
 
+@media (max-width: 700px) {
+    h1.italiano {
+        font-size: 6.5rem;
+        margin-top: 10vh;
+    }
+}
+
+@media (max-width: 520px) {
+    h1.italiano {
+        margin-top: 5vh;
+        font-size: 6rem;
+    }
+}
+
 /* Footer */
 
 .footerIndex {
