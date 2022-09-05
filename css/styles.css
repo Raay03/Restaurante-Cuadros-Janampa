@@ -179,23 +179,20 @@ p#reservas {
     padding-bottom: 5vh;
 }
 
+.cajaFormulario {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
+
 div.formulario {
     text-align: center;
     background-color: rgb(161, 161, 161);
-    padding-top: 1vh;
-    max-width: 50vh;
-    margin-left: 70vh;
-    border-style: groove;
-    border-radius: 30px;
-}
-
-form.dentroFormulario {
-    text-align: start;
-}
-
-div.labels {
-    padding-bottom: 5vh;
-    font-size: 2.5vh;
+    max-width: 60vh;
+    border-style: solid;
+    border-radius: 20px;
+    width: 60vh;
 }
 
 p.datosPersonales {
@@ -204,6 +201,11 @@ p.datosPersonales {
 }
 
 input.enviarReserva {
-    margin-left: 37%;
     margin-bottom: 5%;
+}
+
+@media (max-width:600px) {
+    div.formulario {
+        width: 50vh;
+    }
 }

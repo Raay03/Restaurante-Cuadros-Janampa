@@ -48,47 +48,47 @@
         <p id="reservas">Para hacer tu reserva completa este formulario y nos estaremos contactando con usted lo mas
             pronto posible.
         </p>
+        <div class="cajaFormulario">
+            <div class="formulario">
+                <p class="datosPersonales">Datos Personales</p>
 
-        <div class="formulario">
-            <p class="datosPersonales">Datos Personales</p>
+                <form action="" class="dentroFormulario">
 
-            <form action="" class="dentroFormulario">
-                <div class="labels">
-                    <label for="nombre">Nombre y apellido</label>
-                    <input type="text" name="nombre" placeholder="Nombre" id="nombre">
-                </div>
+                    <div class="form-floating mb-3">
+                        <input type="nombre" class="form-control" id="nombre" placeholder="nombre">
+                        <label for="nombre">Nombre y apellido</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="numero" class="form-control" id="numero" placeholder="Número">
+                        <label for="numero">Número de telefono</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="contraseña" class="form-control" id="contraseña" placeholder="contraseña">
+                        <label for="contras}eña">Correo electronico</label>
+                    </div>
+                    <div class="mb-3">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Cantidad de personas</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                        </select>
+                    </div>
 
-                <div class="labels">
-                    <label for="numero">Número de telefono</label>
-                    <input type="text" name="numero" placeholder="Número" id="numero">
-                </div>
-
-                <div class="labels">
-                    <label for="email">Mail</label>
-                    <input type="email" name="email" placeholder="Mail" id="email">
-                </div>
-
-                <div class="labels">
-                    <label for="personas">Cantidad de personas</label>
-                    <select name="personas" id="consola">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                    </select>
-
-                </div>
-                <input type="submit" value="Enviar Reserva" class="enviarReserva">
-            </form>
+                    <input type="submit" value="Enviar Reserva" class="enviarReserva">
+                </form>
+            </div>
         </div>
     </main>
     <footer class="footerIndex">
         <p> Hecho por Ray Cuadros</p>
     </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
