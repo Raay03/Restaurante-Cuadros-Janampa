@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+body.fondo {
+  background-color: rgb(255, 216, 168);
+}
+
+.footerIndex {
+  color: rgb(110, 110, 110);
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+  font-size: 1rem;
+}
+
+ul.uno {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0;
+}
+ul.uno li.mayuscula {
+  font-size: 5rem;
+  text-decoration: underline;
+  padding: 0;
+}
+ul.uno ul.dos {
+  border-style: dotted;
+  border-radius: 100px;
+  padding: 0;
+}
+ul.uno ul.dos li {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  padding: 0;
+}
+ul.uno ul.dos ul.tres {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+ul.uno ul.dos ul.tres li {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .titulos {
+    text-align: center;
+  }
+  ul.uno li.mayuscula {
+    font-size: 4rem;
+  }
+  ul.uno ul.dos li {
+    font-size: 2.7rem;
+  }
+  ul.uno ul.dos ul.tres li {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 900px) and (max-width: 650px) {
+  ul.uno li.mayuscula {
+    font-size: 3rem;
+  }
+  ul.uno ul.dos li {
+    font-size: 2rem;
+  }
+  ul.uno ul.dos ul.tres li {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 900px) {
+  .footerIndex {
+    font-size: 0.8rem;
+  }
+}/*# sourceMappingURL=styles.css.map */

@@ -1,157 +1,164 @@
 <!DOCTYPE html>
 <html lang="es">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sobre Nosotros</title>
-        <link rel="icon" href="../assets/img/icon.png">
-        <link rel="stylesheet" href="../css/styles.css">
-    
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
-    
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    </head>
-    
-    <body class="fondo">
-        <header>
-            <nav class="navbar navbar-dark bg-dark">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">
-                        <img src="../assets/img/icon.png" alt="" width="30" height="24"
-                            class="d-inline-block align-text-top"> El Italiano II
-                    </a>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú</title>
+    <link rel="icon" href="../assets/img/icon.png">
+    <link rel="stylesheet" href="../sass/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body class="fondo">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../assets/img/icon.png" style="width:30px"> El Italiano II
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                            <a class="nav-link active" aria-current="page" href="./menu.html">Menú</a>
-                            <a class="nav-link active" aria-current="page" href="./sobre-nosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./menu.html">Menú</a>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./sobre-nosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link active" href="./ubicacion.html">Ubicación</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link active" href="./reservas.html">Reservas</a>
-                        </div>
-                    </div>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-        </header>
-        <main class="menu">
-            <h1 class="titulos">Menú</h1>
-            <ul class="uno">
-                <li class="mayuscula">Parrilla:</li>
-                <ul class="dos">
-                    <li class="mayuscula">Hamburguesas:</li>
-                    <ul class="tres">
-                        <li>Hamburguesa c/ guarnición $300</li>
-                        <li>Hamburguesa completa c/ guarnición $400</li>
-                    </ul>
-                    <li class="mayuscula">Carne de cerdo:</li>
-                    <ul class="tres">
-                        <li>Bondiola a la parrilla con fritas $550</li>
-                        <li>Bondiola al verdeo $600</li>
-                        <li>Bondiola a la mostaza con fritas y puré $600</li>
-                    </ul>
-                    <li class="mayuscula">Carne vacuna:</li>
-                    <ul class="tres">
-                        <li>Asado con guarnición $800</li>
-                        <li>Vacio con guarnición $800</li>
-                        <li>Entraña con guarnición $900</li>
-                        <li>Bife de chorizo con guarnición $950</li>
-                        <li>Lomo con guarnición $1000</li>
-                        <li>Chorizo $200</li>
-                        <li>Morcilla $180</li>
-                        <li>Chinchulín $400</li>
-                        <li>Bife de chorizo a la fugazzeta $800</li>
-                        <li>Bife de chorizo capresse $800</li>
-                        <li>Bife de chorizo a la pimienta con guarnición $800</li>
-                        <li>Bife de chorizo al champignon con papas españolas $800</li>
-                        <li>Costillas a la Riojana/Portuguesa $600</li>
-                    </ul>
-                    <li class="mayuscula">Pollo:</li>
-                    <ul class="tres">
-                        <li>Solo con guarnición $350</li>
-                        <li>Al verdeo $450</li>
-                        <li>A la mostaza $450</li>
-                        <li>A la provenzal $450</li>
-                    </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="menu">
+        <h1 class="titulos">Menú</h1>
+        <ul class="uno">
+            <li class="mayuscula">Parrilla:</li>
+            <ul class="dos">
+                <li class="mayuscula">Hamburguesas:</li>
+                <ul class="tres">
+                    <li>Hamburguesa c/ guarnición $300</li>
+                    <li>Hamburguesa completa c/ guarnición $400</li>
                 </ul>
-                <li class="mayuscula">Minutas:</li>
-                <ul class="dos">
-                    <li class="mayuscula">Empanadas:</li>
-                    <ul class="tres">
-                        <li>Capresse / Queso y cebolla / Jamón y queso / Carne / Pollo $70c/u $800 doc.</li>
-                    </ul>
-                    <li class="mayuscula">Pastas Frescas Caseras:</li>
-                    <ul class="tres">
-                        <li>Ravioles $320</li>
-                        <li>Canelones $400</li>
-                        <li>Lasagna $450</li>
-                        <li>Sorrentinos $350</li>
-                        <li>Ñoquis $300</li>
-                        <li>Spaguettis $300</li>
-                    </ul>
-                    <li class="mayuscula">Milanesa de ternera o suprema:</li>
-                    <ul class="tres">
-                        <li>Sola con papas fritas $450</li>
-                        <li>A la napolitana con papas fritas $550</li>
-                        <li>A la fugazzeta con papas fritas $550</li>
-                        <li>A la suiza con papas fritas $550</li>
-                        <li>A la italiana con papas fritas $550</li>
-                        <li>A la capresse con papas fritas $550</li>
-                        <li>A la florentina con papas fritas $550</li>
-                        <li>A la calabresa con papas fritas $600</li>
-                    </ul>
-                    <li class="mayuscula">Sandwiches calientes(Milanesa de ternera o suprema):</li>
-                    <ul class="tres">
-                        <li>Solo $400</li>
-                        <li>Con lechuga y Tomate $450</li>
-                        <li>Con jamón y queso $480</li>
-                        <li>Completa(Jamón, queso, tomate, lechuga, huevo y papas fritas) $500</li>
-                        <li>Sandwich de bondiola $450</li>
-                        <li>Choripan $200</li>
-                    </ul>
-                    <li class="mayuscula">Pescado:</li>
-                    <ul class="tres">
-                        <li>Filet de merluza a la romana con puré o fritas $450</li>
-                        <li>Filet a la milanesa con puré o fritas $450</li>
-                        <li>Filet de merluza a la fugazzeta con puré o fritas $550</li>
-                        <li>Filet de merluza al roquefort con fritas $550</li>
-                    </ul>
-                    <li class="mayuscula">Tortillas y omelettes:</li>
-                    <ul class="tres">
-                        <li>Tortilla de papa $300</li>
-                        <li>Tortilla a la española $350</li>
-                        <li>Omelette suizo $250</li>
-                        <li>Omelette mixto $250</li>
-                        <li>Omelette capresse $250</li>
-                    </ul>
-                    <li class="mayuscula">Porciones:</li>
-                    <ul class="tres">
-                        <li>Papas fritas $300</li>
-                        <li>Pure de papas $300</li>
-                        <li>Arroz blanco $200</li>
-                        <li>Arroz gratinado $250</li>
-                        <li>Huevo duro o frito $50</li>
-                    </ul>
-                    <li class="mayuscula">Ensaladas:</li>
-                    <ul class="tres">
-                        <li>Cesar $250</li>
-                        <li>Ensalada rusa $250</li>
-                        <li>Rucula y parmesano $200</li>
-                    </ul>
+                <li class="mayuscula">Carne de cerdo:</li>
+                <ul class="tres">
+                    <li>Bondiola a la parrilla con fritas $550</li>
+                    <li>Bondiola al verdeo $600</li>
+                    <li>Bondiola a la mostaza con fritas y puré $600</li>
+                </ul>
+                <li class="mayuscula">Carne vacuna:</li>
+                <ul class="tres">
+                    <li>Asado con guarnición $800</li>
+                    <li>Vacio con guarnición $800</li>
+                    <li>Entraña con guarnición $900</li>
+                    <li>Bife de chorizo con guarnición $950</li>
+                    <li>Lomo con guarnición $1000</li>
+                    <li>Chorizo $200</li>
+                    <li>Morcilla $180</li>
+                    <li>Chinchulín $400</li>
+                    <li>Bife de chorizo a la fugazzeta $800</li>
+                    <li>Bife de chorizo capresse $800</li>
+                    <li>Bife de chorizo a la pimienta con guarnición $800</li>
+                    <li>Bife de chorizo al champignon con papas españolas $800</li>
+                    <li>Costillas a la Riojana/Portuguesa $600</li>
+                </ul>
+                <li class="mayuscula">Pollo:</li>
+                <ul class="tres">
+                    <li>Solo con guarnición $350</li>
+                    <li>Al verdeo $450</li>
+                    <li>A la mostaza $450</li>
+                    <li>A la provenzal $450</li>
                 </ul>
             </ul>
-        </main>
-        <footer class="footerIndex">
-            <p> Hecho por Ray Cuadros</p>
-        </footer>
+            <li class="mayuscula">Minutas:</li>
+            <ul class="dos">
+                <li class="mayuscula">Empanadas:</li>
+                <ul class="tres">
+                    <li>Capresse / Queso y cebolla / Jamón y queso / Carne / Pollo $70c/u $800 doc.</li>
+                </ul>
+                <li class="mayuscula">Pastas Frescas Caseras:</li>
+                <ul class="tres">
+                    <li>Ravioles $320</li>
+                    <li>Canelones $400</li>
+                    <li>Lasagna $450</li>
+                    <li>Sorrentinos $350</li>
+                    <li>Ñoquis $300</li>
+                    <li>Spaguettis $300</li>
+                </ul>
+                <li class="mayuscula">Milanesa de ternera o suprema:</li>
+                <ul class="tres">
+                    <li>Sola con papas fritas $450</li>
+                    <li>A la napolitana con papas fritas $550</li>
+                    <li>A la fugazzeta con papas fritas $550</li>
+                    <li>A la suiza con papas fritas $550</li>
+                    <li>A la italiana con papas fritas $550</li>
+                    <li>A la capresse con papas fritas $550</li>
+                    <li>A la florentina con papas fritas $550</li>
+                    <li>A la calabresa con papas fritas $600</li>
+                </ul>
+                <li class="mayuscula">Sandwiches calientes(Milanesa de ternera o suprema):</li>
+                <ul class="tres">
+                    <li>Solo $400</li>
+                    <li>Con lechuga y Tomate $450</li>
+                    <li>Con jamón y queso $480</li>
+                    <li>Completa(Jamón, queso, tomate, lechuga, huevo y papas fritas) $500</li>
+                    <li>Sandwich de bondiola $450</li>
+                    <li>Choripan $200</li>
+                </ul>
+                <li class="mayuscula">Pescado:</li>
+                <ul class="tres">
+                    <li>Filet de merluza a la romana con puré o fritas $450</li>
+                    <li>Filet a la milanesa con puré o fritas $450</li>
+                    <li>Filet de merluza a la fugazzeta con puré o fritas $550</li>
+                    <li>Filet de merluza al roquefort con fritas $550</li>
+                </ul>
+                <li class="mayuscula">Tortillas y omelettes:</li>
+                <ul class="tres">
+                    <li>Tortilla de papa $300</li>
+                    <li>Tortilla a la española $350</li>
+                    <li>Omelette suizo $250</li>
+                    <li>Omelette mixto $250</li>
+                    <li>Omelette capresse $250</li>
+                </ul>
+                <li class="mayuscula">Porciones:</li>
+                <ul class="tres">
+                    <li>Papas fritas $300</li>
+                    <li>Pure de papas $300</li>
+                    <li>Arroz blanco $200</li>
+                    <li>Arroz gratinado $250</li>
+                    <li>Huevo duro o frito $50</li>
+                </ul>
+                <li class="mayuscula">Ensaladas:</li>
+                <ul class="tres">
+                    <li>Cesar $250</li>
+                    <li>Ensalada rusa $250</li>
+                    <li>Rucula y parmesano $200</li>
+                </ul>
+            </ul>
+        </ul>
+    </main>
+    <footer class="footerIndex">
+        <p> Hecho por Ray Cuadros</p>
+    </footer>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"

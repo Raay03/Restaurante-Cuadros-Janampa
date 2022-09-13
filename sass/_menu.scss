@@ -1,0 +1,34 @@
+ul.uno {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+
+    li.mayuscula {
+        font-size: 5rem;
+        text-decoration: underline;
+        padding: 0;
+    }
+
+    ul.dos {
+        border-style: dotted;
+        border-radius: 100px;
+        padding: 0;
+
+        & li {
+            font-size: 3.5rem;
+            font-weight: bolder;
+            padding: 0;
+        }
+
+        ul.tres {
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+
+            & li {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

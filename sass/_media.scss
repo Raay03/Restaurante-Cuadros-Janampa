@@ -1,0 +1,52 @@
+//Menú
+@media (max-width: $widthM) {
+    .titulos {
+        text-align: center;
+    }
+
+    ul.uno {
+        li.mayuscula {
+            font-size: 4rem;
+        }
+
+        ul.dos {
+            li {
+                font-size: 2.7rem;
+            }
+
+            ul.tres {
+                li {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    @media (max-width: $widthS) {
+        ul.uno {
+            li.mayuscula {
+                font-size: 3rem;
+            }
+
+            ul.dos {
+                li {
+                    font-size: 2rem;
+                }
+
+                ul.tres {
+                    li {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//Footer
+
+@media (max-width: $widthM) {
+    .footerIndex {
+        font-size: .8rem;
+    }
+}
