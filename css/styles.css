@@ -55,6 +55,16 @@ h1.italiano {
     }
 }
 
+/* Footer */
+
+.footerIndex {
+    color: rgb(110, 110, 110);
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    font-size: 1rem;
+  }
+
 /* Sobre Nosotros */
 
 .contenedorAbout {
