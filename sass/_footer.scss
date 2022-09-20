@@ -1,5 +1,5 @@
 .footerIndex {
-    color: $colorFooter;
+    color: map-get($map: $colores, $key:colorFooter);
     position: fixed;
     bottom: 0%;
     right: 0%;

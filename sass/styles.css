@@ -12,7 +12,7 @@ body.fondo {
 }
 
 .footerIndex {
-  color: rgb(110, 110, 110);
+  color: rgb(111, 111, 111);
   position: fixed;
   bottom: 0%;
   right: 0%;
@@ -49,7 +49,7 @@ ul.uno ul.dos ul.tres li {
   font-size: 1.5rem;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 950px) {
   .titulos {
     text-align: center;
   }
@@ -63,7 +63,7 @@ ul.uno ul.dos ul.tres li {
     font-size: 1rem;
   }
 }
-@media (max-width: 900px) and (max-width: 650px) {
+@media (max-width: 950px) and (max-width: 600px) {
   ul.uno li.mayuscula {
     font-size: 3rem;
   }
@@ -74,7 +74,7 @@ ul.uno ul.dos ul.tres li {
     font-size: 1rem;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 950px) {
   .footerIndex {
     font-size: 0.8rem;
   }

@@ -8,5 +8,5 @@
 }
 
 body.fondo {
-    background-color:$colorBG;
+    background-color:map-get($map: $colores, $key: colorBG);
 }
