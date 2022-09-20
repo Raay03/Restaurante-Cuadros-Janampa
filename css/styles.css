@@ -35,6 +35,41 @@ body.index {
     margin-top: -30px;
 }
 
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+ul.indexPosition {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+li.index {
+    text-align: center;
+    border: 3px solid rgba (100,100,100,1);
+    margin: 20px;
+    padding: 20px;
+    width: 90%;
+    font-size: 2rem;
+    border-radius: 50px;
+    color: #FFF;
+    background-size: 300%;
+}
+
+li.index:hover {
+    background-position: right;
+    transition: 0.7s;
+}
+
+.degrade {
+    background-image: linear-gradient(to left, rgba(209, 209, 209, 0.767), #e9c666f5);
+}
+
+
 h1.italiano {
     font-size: 9rem;
     color: rgb(255, 174, 0);

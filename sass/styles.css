@@ -11,6 +11,65 @@ body.fondo {
   background-color: rgb(255, 216, 168);
 }
 
+body.index {
+  background: rgba(0, 0, 0, 0.75) url(../assets/img/main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-position: center center;
+  background-attachment: fixed;
+}
+body.index div main .tituloIndex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+body.index div main .italiano, body.index div main .ii {
+  font-size: 9rem;
+  color: rgb(255, 174, 0);
+  text-align: center;
+}
+body.index div main .ii {
+  letter-spacing: -10px;
+  margin-top: -30px;
+}
+body.index div nav {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+body.index div nav .indexPosition {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+body.index div nav .indexPosition .indexbtn {
+  text-align: center;
+  border: 3px solid rgba 100, 100, 100, 1;
+  margin: 20px;
+  padding: 20px;
+  width: 90%;
+  font-size: 2rem;
+  border-radius: 50px;
+  color: #FFF;
+  background-size: 300%;
+}
+body.index div nav .indexPosition .indexbtn:hover {
+  background-position: right;
+  transition: 0.7s;
+}
+body.index div nav .indexPosition .degrade {
+  background-image: linear-gradient(to left, rgba(209, 209, 209, 0.767), rgba(233, 198, 102, 0.9607843137));
+}
+body.index div nav .indexPosition a {
+  text-decoration: none;
+  color: white;
+}
+
 .footerIndex {
   color: rgb(111, 111, 111);
   position: fixed;
