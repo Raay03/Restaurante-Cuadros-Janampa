@@ -1,0 +1,34 @@
+body {
+    main {
+        div {
+            div.row {
+                justify-content: center;
+
+                div.contenedorAbout {
+                    width: 100vh;
+
+                    div.accordion {
+                        div.accordion-item {
+                            div.accordion-collapse {
+                                div.accordion-body {
+                                    p.tel {
+                                        padding-bottom: 3vh;
+                                    }
+
+                                    nav {
+                                        a {
+                                            img.logos {
+                                                height: 10vh;
+                                                padding-left: 4vh;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

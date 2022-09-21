@@ -1,0 +1,35 @@
+main {
+    p#reservas {
+        text-align: center;
+        font-size: 1.5rem;
+        padding-top: 3vh;
+        padding-bottom: 5vh;
+    }
+
+    div.cajaFormulario {
+        display: flex;
+        width: auto;
+        height: auto;
+        justify-content: center;
+
+        div.formulario {
+            text-align: center;
+            background-color: rgb(161, 161, 161);
+            max-width: 60vh;
+            border-style: solid;
+            border-radius: 20px;
+            width: 60vh;
+
+            p.datosPersonales {
+                font-size: 4vh;
+                padding-bottom: 3vh;
+            }
+
+            form.dentroFormulario {
+                input.enviarReserva {
+                    margin-bottom: 5%;
+                }
+            }
+        }
+    }
+}

@@ -1,10 +1,33 @@
 @import 'vars';
 @import 'body';
 
+/*Index*/
+
 @import 'index.scss';
 
+/* Footer */ 
+
 @import 'footer.scss';
+
+/* Menú */
+
 @import 'menu.scss';
+
+/*Sobre Nosotros*/
+
+@import 'sobreNosotros.scss';
+
+/*Ubicación*/
+
+@import 'ubicacion.scss';
+
+/* Reservas*/
+
+@import 'reservas.scss';
+
+/* Media */
+
 @import 'mediaIndex.scss';
 @import 'mediaMenu.scss';
+@import 'mediaReserva.scss';
 @import 'mediaFooter.scss';
