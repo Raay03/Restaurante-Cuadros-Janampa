@@ -21,32 +21,24 @@
             }
         }
     }
+}
 
-    @media (max-width: $widthS) {
-        ul.uno {
-            li.mayuscula {
-                font-size: 3rem;
+@media (max-width: $widthS) {
+    ul.uno {
+        li.mayuscula {
+            font-size: 3rem;
+        }
+
+        ul.dos {
+            li {
+                font-size: 2rem;
             }
 
-            ul.dos {
+            ul.tres {
                 li {
-                    font-size: 2rem;
-                }
-
-                ul.tres {
-                    li {
-                        font-size: 1rem;
-                    }
+                    font-size: 1rem;
                 }
             }
         }
-    }
-}
-
-//Footer
-
-@media (max-width: $widthM) {
-    .footerIndex {
-        font-size: .8rem;
     }
 }

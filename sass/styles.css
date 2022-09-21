@@ -39,6 +39,7 @@ body.index div nav {
   display: flex;
   text-align: center;
   justify-content: center;
+  margin-top: 5%;
 }
 body.index div nav .indexPosition {
   display: grid;
@@ -46,6 +47,7 @@ body.index div nav .indexPosition {
   grid-template-rows: 1fr 1fr;
   align-items: center;
   justify-items: center;
+  padding: 0;
 }
 body.index div nav .indexPosition .indexbtn {
   text-align: center;
@@ -57,6 +59,10 @@ body.index div nav .indexPosition .indexbtn {
   border-radius: 50px;
   color: #FFF;
   background-size: 300%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 body.index div nav .indexPosition .indexbtn:hover {
   background-position: right;
@@ -68,6 +74,7 @@ body.index div nav .indexPosition .degrade {
 body.index div nav .indexPosition a {
   text-decoration: none;
   color: white;
+  font-size: 2rem;
 }
 
 .footerIndex {
@@ -109,6 +116,27 @@ ul.uno ul.dos ul.tres li {
 }
 
 @media (max-width: 950px) {
+  body.index div main h1.italiano, body.index div main h1.ii {
+    font-size: 6.5rem;
+    margin-top: 10vh;
+  }
+  body.index div main h1.ii {
+    margin-top: -30px;
+  }
+}
+@media (max-width: 600px) {
+  body.index div main h1.italiano, body.index div main h1.ii {
+    margin-top: 4vh;
+    font-size: 6rem;
+  }
+  body.index div main h1.ii {
+    margin-top: -30px;
+  }
+  body.index div nav ul.indexPosition li.indexbtn a {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 950px) {
   .titulos {
     text-align: center;
   }
@@ -122,7 +150,7 @@ ul.uno ul.dos ul.tres li {
     font-size: 1rem;
   }
 }
-@media (max-width: 950px) and (max-width: 600px) {
+@media (max-width: 600px) {
   ul.uno li.mayuscula {
     font-size: 3rem;
   }

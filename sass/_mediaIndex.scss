@@ -1,0 +1,43 @@
+@media (max-width: $widthM) {
+    body.index {
+        div {
+            main {
+                h1.italiano {
+                    font-size: 6.5rem;
+                    margin-top: 10vh;
+                }
+
+                h1.ii {
+                    margin-top: -30px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $widthS) {
+    body.index {
+        div {
+            main {
+                h1.italiano {
+                    margin-top: 4vh;
+                    font-size: 6rem;
+                }
+
+                h1.ii {
+                    margin-top: -30px;
+                }
+            }
+
+            nav {
+                ul.indexPosition {
+                    li.indexbtn {
+                        a {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
