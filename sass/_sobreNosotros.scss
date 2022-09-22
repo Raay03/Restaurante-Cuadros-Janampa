@@ -1,34 +1,49 @@
 body {
     main {
-        div {
+        color: black;
+        div.container {
+
             div.row {
-                justify-content: center;
+                h1.titulos {
+                    font-size: 4.5rem;
+                }
+            }
 
-                div.contenedorAbout {
-                    width: 100vh;
+            div.parrafos {
+                margin-bottom: 5vh;
+                text-align: center;
+                border-style: dotted;
+                border-radius: 50px;
 
-                    div.accordion {
-                        div.accordion-item {
-                            div.accordion-collapse {
-                                div.accordion-body {
-                                    p.tel {
-                                        padding-bottom: 3vh;
-                                    }
+                p.subtitle {
+                    font-size: 2.5rem;
+                    margin-bottom: 1vh;
+                }
 
-                                    nav {
-                                        a {
-                                            img.logos {
-                                                height: 10vh;
-                                                padding-left: 4vh;
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
+                p.tel {
+                    padding-bottom: 3vh;
+                }
+            }
+
+            nav {
+                a {
+                    img.logos {
+                        height: 10vh;
+                        padding-left: 4vh;
                     }
                 }
             }
         }
     }
+}
+
+
+div h2.subtitle {
+    font-size: 2.5rem;
+    margin-bottom: 3vh;
+}
+
+
+p.tel {
+    padding-bottom: 3vh;
 }

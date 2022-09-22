@@ -1,4 +1,6 @@
 main {
+    
+    color: black;
     p#reservas {
         text-align: center;
         font-size: 1.5rem;
@@ -14,11 +16,13 @@ main {
 
         div.formulario {
             text-align: center;
-            background-color: rgb(161, 161, 161);
+            background-color: #212529;
             max-width: 60vh;
             border-style: solid;
             border-radius: 20px;
             width: 60vh;
+            color: white;
+            border-color: black;
 
             p.datosPersonales {
                 font-size: 4vh;

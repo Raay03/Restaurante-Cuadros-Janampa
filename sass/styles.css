@@ -95,6 +95,7 @@ ul.uno {
   flex-direction: column;
   text-align: center;
   padding: 0;
+  color: black;
 }
 ul.uno li.mayuscula {
   font-size: 5rem;
@@ -121,18 +122,37 @@ ul.uno ul.dos ul.tres li {
 }
 
 /*Sobre Nosotros*/
-body main div div.row {
-  justify-content: center;
+body main {
+  color: black;
 }
-body main div div.row div.contenedorAbout {
-  width: 100vh;
+body main div.container div.row h1.titulos {
+  font-size: 4.5rem;
 }
-body main div div.row div.contenedorAbout div.accordion div.accordion-item div.accordion-collapse div.accordion-body p.tel {
+body main div.container div.parrafos {
+  margin-bottom: 5vh;
+  text-align: center;
+  border-style: dotted;
+  border-radius: 50px;
+}
+body main div.container div.parrafos p.subtitle {
+  font-size: 2.5rem;
+  margin-bottom: 1vh;
+}
+body main div.container div.parrafos p.tel {
   padding-bottom: 3vh;
 }
-body main div div.row div.contenedorAbout div.accordion div.accordion-item div.accordion-collapse div.accordion-body nav a img.logos {
+body main div.container nav a img.logos {
   height: 10vh;
   padding-left: 4vh;
+}
+
+div h2.subtitle {
+  font-size: 2.5rem;
+  margin-bottom: 3vh;
+}
+
+p.tel {
+  padding-bottom: 3vh;
 }
 
 /*Ubicación*/
@@ -142,6 +162,9 @@ div.ubicacion {
 }
 
 /* Reservas*/
+main {
+  color: black;
+}
 main p#reservas {
   text-align: center;
   font-size: 1.5rem;
@@ -156,11 +179,13 @@ main div.cajaFormulario {
 }
 main div.cajaFormulario div.formulario {
   text-align: center;
-  background-color: rgb(161, 161, 161);
+  background-color: #212529;
   max-width: 60vh;
   border-style: solid;
   border-radius: 20px;
   width: 60vh;
+  color: white;
+  border-color: black;
 }
 main div.cajaFormulario div.formulario p.datosPersonales {
   font-size: 4vh;
